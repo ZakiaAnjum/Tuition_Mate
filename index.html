@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuitionMate | Find the right tutor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" id="brandHome"><span class="brand-mark">T</span><span>Tuition<span class="brand-accent">Mate</span><small>Learn. Teach. Succeed.</small></span></a>
+    <nav id="navActions">
+      <button class="btn btn-ghost" id="navLogin">Log in</button>
+      <button class="btn btn-primary" id="navRegister">Create account</button>
+    </nav>
+  </header>
+  <main id="app">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">A simpler way to find the right tutor</span>
+        <h1>Good learning starts with the <em>right connection.</em></h1>
+        <p>Guardians can find teachers who fit their child's needs. Teachers can discover tuition opportunities that fit their schedule.</p>
+        <div class="hero-actions"><button class="btn btn-primary btn-large" id="heroRegister">Create free account <span>→</span></button><button class="btn btn-outline btn-large" id="heroLogin">I already have an account</button></div>
+        <div class="trust-row"><span>✓ Guardian & teacher accounts</span><span>✓ Smart criteria search</span><span>✓ One simple dashboard</span></div>
+      </div>
+      <div class="hero-visual hero-illustration"><div class="illustration-glow"></div><img src="tuitionmate-hero.png" alt="A tutor helping a student study at home"/><div class="illustration-caption"><span>✦</span><div><b>Better learning starts at home</b><small>Find the right tuition match</small></div></div></div>
+    </section>
+    <section class="how-section"><div class="section-heading"><span class="eyebrow">HOW IT WORKS</span><h2>Everything you need, without the fuss.</h2><p>A clean, straightforward platform for both sides of tuition.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon lavender">♧</div><h3>For guardians</h3><p>Post class, subject, schedule, location and salary preferences. Review interested teachers and manage your requests.</p></article>
+        <article class="feature-card"><div class="feature-icon mint">✎</div><h3>For teachers</h3><p>Create your academic profile, share your preferred tuition criteria and browse suitable guardian posts.</p></article>
+        <article class="feature-card"><div class="feature-icon peach">⚙</div><h3>For admin</h3><p>Review users and posts, remove inappropriate content and keep the platform organised from one panel.</p></article>
+      </div>
+    </section>
+    <footer class="footer"><span>© 2026 TuitionMate</span><span>Built for better learning connections</span></footer>
+  </main>
+  <div class="modal-backdrop hidden" id="modalBackdrop"><section class="modal" role="dialog" aria-modal="true"><button class="modal-close" id="modalClose" aria-label="Close">×</button><div id="modalContent"></div></section></div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
