@@ -68,3 +68,4 @@ TuitionMate project folder/
   style.css     Layout, colors, responsive styling
   app.js        Registration, login, posts, search, dashboards and admin logic
   README.txt    This guide
+https://zakiaanjum.github.io/Tuition_Mate/
